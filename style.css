@@ -1,0 +1,146 @@
+.container{
+    background-image: url(./img/big\ container.png);
+    background-size: cover;
+    height: 810px;
+    flex-shrink: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    display: flex;
+}
+.nav-img{
+    padding-top: 0px;
+}
+.nav-img > svg{
+    padding: 10px;
+}
+.nav-item > a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.nav-icons > svg{
+    padding-left: 20px;
+}
+.nav-icons > img{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.header{
+    text-align: end;
+    padding-top: 250px;
+}
+.main-hdr-bttn{
+    margin-left: 1000px;
+}
+.main-hdr-bttn > button{
+    display: flex;
+    padding: 7.5px 15px;
+    align-items: flex-start;
+    gap: 7.5px;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 9.75px;
+    background: #EB0000;
+    border: none;
+}
+.main-hdr-flex{
+    display: flex;
+    color: white;
+    margin-left: 730px;
+}
+.flex-item > h1{
+    color: #E70000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    width: 90px;
+}
+.flex-item > h2{
+    width: 288px;
+    height: 42px;
+    color: #FFF;
+    font-family: Monument Extended;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20.25px; /* 112.5% */
+    letter-spacing: 1.35px;
+}
+.Footer{
+    margin-top: 80px;
+    display: flex;
+}
+.Footer-item > h1{
+    width: 144.75px;
+    height: 16.5px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Monument Extended;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 100px;
+}
+.Footer-item > img{
+    width: 150px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.Footer-bttn > button{
+    margin-left: 30px;
+}
+.Footer-bttn{
+    display: flex;
+    margin: 50px;
+}
+.Footer-bttn1{
+    display: flex;
+    height: 51.75px;
+    padding: 15px 22.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 180px;
+    color: #000;
+    font-family: Monument Extended;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Footer-bttn2 {
+    width: 180px;
+    display: flex;
+    height: 51.75px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: #FFF;
+    font-family: Monument Extended;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #000;
+    border: 1px solid white;
+}
+.Footer-item > p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.25px; /* 155.769% */
+    margin-left: 100px;
+}
